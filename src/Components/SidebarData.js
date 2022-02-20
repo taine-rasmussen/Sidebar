@@ -4,7 +4,6 @@ import AssessmentIcon from '@mui/icons-material/Assessment';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import GroupIcon from '@mui/icons-material/Group';
 import ImageIcon from '@mui/icons-material/Image';
-
 export const SidebarData = [
   {
     title: 'Home',
