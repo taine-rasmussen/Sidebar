@@ -13,3 +13,40 @@ body {
   width: 300px;
   background-color: #2fa17a;
 }
+
+.sidebar-list {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar-row:hover {
+  cursor: pointer;
+  background-color: #1e6b50;
+}
+
+.sidebar-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #273241;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sidebar-icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.sidebar-title {
+  flex: 70%;
+  font-weight: bold;
+}
